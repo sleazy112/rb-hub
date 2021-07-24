@@ -1,0 +1,2420 @@
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local RBWorld = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local HomeTab = Instance.new("TextButton")
+local FunctionTab = Instance.new("TextButton")
+local announcementstab = Instance.new("TextButton")
+local exetab = Instance.new("TextButton")
+local CreditsXD = Instance.new("TextLabel")
+local ScriptHub = Instance.new("ScrollingFrame")
+local HomeTab_2 = Instance.new("TextButton")
+local FunctionTab_2 = Instance.new("TextButton")
+local Aimbot = Instance.new("TextButton")
+local Stats = Instance.new("TextButton")
+local Stamina = Instance.new("TextButton")
+local Dunk = Instance.new("TextButton")
+local InfinteJump = Instance.new("TextButton")
+local Dribbles = Instance.new("TextButton")
+local AutoSteal = Instance.new("TextButton")
+local StealPlayer = Instance.new("TextBox")
+local AutoBlock = Instance.new("TextButton")
+local BlockPlayer = Instance.new("TextBox")
+local announcementstab_2 = Instance.new("TextButton")
+local updatetab = Instance.new("TextButton")
+local AutoShoot = Instance.new("TextButton")
+local Admin = Instance.new("TextButton")
+local AdminV2 = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local TP = Instance.new("TextButton")
+local Destroy = Instance.new("TextButton")
+local Gym = Instance.new("TextButton")
+local Spy = Instance.new("TextButton")
+local RemoteSpy = Instance.new("TextButton")
+local Decomplier = Instance.new("TextButton")
+local DexV4 = Instance.new("TextButton")
+local NoSteal = Instance.new("TextButton")
+local AntiReach = Instance.new("TextButton")
+local Boxing = Instance.new("TextButton")
+local AntiScreen = Instance.new("TextButton")
+local AntiAnkles = Instance.new("TextButton")
+local Unlock = Instance.new("TextButton")
+local FreeJS = Instance.new("TextButton")
+local Slots = Instance.new("TextButton")
+local East = Instance.new("TextButton")
+local West = Instance.new("TextButton")
+local Soon = Instance.new("TextButton")
+local updatetab_2 = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local animationstab = Instance.new("TextButton")
+local Scriptstab = Instance.new("TextButton")
+local Executor = Instance.new("Frame")
+local execredits = Instance.new("TextLabel")
+local ScriptBox = Instance.new("TextBox")
+local Exe = Instance.new("TextButton")
+local CloseEXE = Instance.new("TextButton")
+local Clear = Instance.new("TextButton")
+local Announcements = Instance.new("Frame")
+local Tag = Instance.new("TextLabel")
+local Messge = Instance.new("TextLabel")
+local CloseAnn = Instance.new("TextButton")
+local Animations = Instance.new("Frame")
+local noob = Instance.new("TextLabel")
+local Super = Instance.new("TextButton")
+local Dead = Instance.new("TextButton")
+local HTF = Instance.new("TextButton")
+local Pray = Instance.new("TextButton")
+local Dab = Instance.new("TextButton")
+local ToSky = Instance.new("TextButton")
+local FallBack = Instance.new("TextButton")
+local Swish = Instance.new("TextButton")
+local REF = Instance.new("TextButton")
+local Cooking = Instance.new("TextButton")
+local NoNo = Instance.new("TextButton")
+local Hype = Instance.new("TextButton")
+local flick = Instance.new("TextButton")
+local smackcam = Instance.new("TextButton")
+local Shimmy = Instance.new("TextButton")
+local CloseMations = Instance.new("TextButton")
+local ScriptHubV2 = Instance.new("Frame")
+local GotoPlayer = Instance.new("TextButton")
+local InputPlayer = Instance.new("TextBox")
+local FPS = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local CloseScriptHub = Instance.new("TextButton")
+local Animationsattributes = Instance.new("TextButton")
+local Sound = Instance.new("TextButton")
+local SoundID = Instance.new("TextBox")
+local AntiKick = Instance.new("TextButton")
+local Updates = Instance.new("Frame")
+local UpdateLogs = Instance.new("TextLabel")
+local CloseLogs = Instance.new("TextButton")
+local Logs = Instance.new("TextLabel")
+local opengui = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local Login = Instance.new("ScreenGui")
+local LoginGui = Instance.new("Frame")
+local pass = Instance.new("TextBox")
+local Submit = Instance.new("TextButton")
+local _5566 = Instance.new("TextLabel")
+--Properties:
+RBWorld.Name = "RB World"
+RBWorld.Parent = game.CoreGui
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = RBWorld
+MainFrame.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.247059)
+MainFrame.BorderSizePixel = 4
+MainFrame.Position = UDim2.new(0.318475753, 0, 0.293226123, 0)
+MainFrame.Size = UDim2.new(0, 486, 0, 261)
+MainFrame.Visible = false
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+HomeTab.Name = "Home Tab"
+HomeTab.Parent = MainFrame
+HomeTab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+HomeTab.BorderSizePixel = 4
+HomeTab.Position = UDim2.new(-0.218220338, 0, 0.122605361, 0)
+HomeTab.Size = UDim2.new(0, 94, 0, 22)
+HomeTab.Font = Enum.Font.SourceSansBold
+HomeTab.Text = "Home"
+HomeTab.TextColor3 = Color3.new(1, 1, 1)
+HomeTab.TextSize = 20
+HomeTab.TextWrapped = true
+
+FunctionTab.Name = "Function Tab"
+FunctionTab.Parent = MainFrame
+FunctionTab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+FunctionTab.BorderSizePixel = 4
+FunctionTab.Position = UDim2.new(-0.21075283, 0, 0.602599382, 0)
+FunctionTab.Size = UDim2.new(0, 96, 0, 26)
+FunctionTab.Font = Enum.Font.SourceSansBold
+FunctionTab.Text = "Scripts"
+FunctionTab.TextColor3 = Color3.new(1, 1, 1)
+FunctionTab.TextSize = 20
+FunctionTab.TextWrapped = true
+
+announcementstab.Name = "announcementstab"
+announcementstab.Parent = MainFrame
+announcementstab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+announcementstab.BorderSizePixel = 4
+announcementstab.Position = UDim2.new(-0.215092599, 0, 0.49915123, 0)
+announcementstab.Size = UDim2.new(0, 94, 0, 26)
+announcementstab.Font = Enum.Font.SourceSansBold
+announcementstab.Text = "Announcements"
+announcementstab.TextColor3 = Color3.new(1, 1, 1)
+announcementstab.TextScaled = true
+announcementstab.TextSize = 20
+announcementstab.TextWrapped = true
+
+exetab.Name = "exetab"
+exetab.Parent = MainFrame
+exetab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+exetab.BorderSizePixel = 4
+exetab.Position = UDim2.new(-0.210588753, 0, 0.842668176, 0)
+exetab.Size = UDim2.new(0, 95, 0, 29)
+exetab.Font = Enum.Font.SourceSansBold
+exetab.Text = "Executor"
+exetab.TextColor3 = Color3.new(1, 1, 1)
+exetab.TextSize = 20
+exetab.TextWrapped = true
+
+CreditsXD.Name = "CreditsXD"
+CreditsXD.Parent = MainFrame
+CreditsXD.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+CreditsXD.BorderSizePixel = 4
+CreditsXD.Position = UDim2.new(0.00205761287, 0, -0.00314465538, 0)
+CreditsXD.Size = UDim2.new(0, 485, 0, 27)
+CreditsXD.Font = Enum.Font.SourceSansBold
+CreditsXD.Text = "RB Hub Leaked"
+CreditsXD.TextColor3 = Color3.new(1, 1, 1)
+CreditsXD.TextSize = 20
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = MainFrame
+ScriptHub.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+ScriptHub.BorderSizePixel = 4
+ScriptHub.Position = UDim2.new(0.000216355547, 0, 0.120662391, 0)
+ScriptHub.Size = UDim2.new(0, 484, 0, 236)
+
+HomeTab_2.Name = "Home Tab"
+HomeTab_2.Parent = ScriptHub
+HomeTab_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+HomeTab_2.BorderSizePixel = 4
+HomeTab_2.Position = UDim2.new(-0.459678739, 0, 0.0131609291, 0)
+HomeTab_2.Size = UDim2.new(0, 95, 0, 29)
+HomeTab_2.Font = Enum.Font.SourceSansBold
+HomeTab_2.Text = "Home"
+HomeTab_2.TextColor3 = Color3.new(1, 1, 1)
+HomeTab_2.TextSize = 20
+HomeTab_2.TextWrapped = true
+
+FunctionTab_2.Name = "Function Tab"
+FunctionTab_2.Parent = ScriptHub
+FunctionTab_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+FunctionTab_2.BorderSizePixel = 4
+FunctionTab_2.Position = UDim2.new(-0.264502883, 0, 0.696794569, 0)
+FunctionTab_2.Size = UDim2.new(0, 89, 0, 13)
+FunctionTab_2.Font = Enum.Font.SourceSansBold
+FunctionTab_2.Text = "Scripts"
+FunctionTab_2.TextColor3 = Color3.new(1, 1, 1)
+FunctionTab_2.TextSize = 20
+FunctionTab_2.TextWrapped = true
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = ScriptHub
+Aimbot.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Aimbot.BorderSizePixel = 3
+Aimbot.Position = UDim2.new(0.0296610165, 0, 0.0354635082, 0)
+Aimbot.Size = UDim2.new(0, 119, 0, 38)
+Aimbot.Font = Enum.Font.SourceSansBold
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.new(1, 1, 1)
+Aimbot.TextSize = 20
+Aimbot.TextWrapped = true
+
+Stats.Name = "Stats"
+Stats.Parent = ScriptHub
+Stats.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Stats.BorderSizePixel = 3
+Stats.Position = UDim2.new(0.372881383, 0, 0.0344466083, 0)
+Stats.Size = UDim2.new(0, 119, 0, 38)
+Stats.Font = Enum.Font.SourceSansBold
+Stats.Text = "Stat Change"
+Stats.TextColor3 = Color3.new(1, 1, 1)
+Stats.TextSize = 20
+Stats.TextWrapped = true
+
+Stamina.Name = "Stamina"
+Stamina.Parent = ScriptHub
+Stamina.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Stamina.BorderSizePixel = 3
+Stamina.Position = UDim2.new(0.707627177, 0, 0.0344466083, 0)
+Stamina.Size = UDim2.new(0, 119, 0, 38)
+Stamina.Font = Enum.Font.SourceSansBold
+Stamina.Text = "Infinte Stamina"
+Stamina.TextColor3 = Color3.new(1, 1, 1)
+Stamina.TextSize = 20
+Stamina.TextWrapped = true
+
+Dunk.Name = "Dunk"
+Dunk.Parent = ScriptHub
+Dunk.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Dunk.BorderSizePixel = 3
+Dunk.Position = UDim2.new(0.0296610594, 0, 0.135220096, 0)
+Dunk.Size = UDim2.new(0, 119, 0, 38)
+Dunk.Font = Enum.Font.SourceSansBold
+Dunk.Text = "Dunk/Layup Anywhere"
+Dunk.TextColor3 = Color3.new(1, 1, 1)
+Dunk.TextScaled = true
+Dunk.TextSize = 20
+Dunk.TextWrapped = true
+
+InfinteJump.Name = "Infinte Jump"
+InfinteJump.Parent = ScriptHub
+InfinteJump.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+InfinteJump.BorderSizePixel = 3
+InfinteJump.Position = UDim2.new(0.372881413, 0, 0.135220096, 0)
+InfinteJump.Size = UDim2.new(0, 119, 0, 38)
+InfinteJump.Font = Enum.Font.SourceSansBold
+InfinteJump.Text = "Infinte Jump(Q)"
+InfinteJump.TextColor3 = Color3.new(1, 1, 1)
+InfinteJump.TextScaled = true
+InfinteJump.TextSize = 20
+InfinteJump.TextWrapped = true
+
+Dribbles.Name = "Dribbles"
+Dribbles.Parent = ScriptHub
+Dribbles.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Dribbles.BorderSizePixel = 3
+Dribbles.Position = UDim2.new(0.707627177, 0, 0.135220096, 0)
+Dribbles.Size = UDim2.new(0, 119, 0, 38)
+Dribbles.Font = Enum.Font.SourceSansBold
+Dribbles.Text = "Dribbles(X-Z-C-V-L)"
+Dribbles.TextColor3 = Color3.new(1, 1, 1)
+Dribbles.TextScaled = true
+Dribbles.TextSize = 20
+Dribbles.TextWrapped = true
+
+AutoSteal.Name = "Auto Steal"
+AutoSteal.Parent = ScriptHub
+AutoSteal.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AutoSteal.BorderSizePixel = 3
+AutoSteal.Position = UDim2.new(0.0296610612, 0, 0.231132105, 0)
+AutoSteal.Size = UDim2.new(0, 119, 0, 38)
+AutoSteal.Font = Enum.Font.SourceSansBold
+AutoSteal.Text = "Auto Steal"
+AutoSteal.TextColor3 = Color3.new(1, 1, 1)
+AutoSteal.TextSize = 20
+AutoSteal.TextWrapped = true
+
+StealPlayer.Name = "StealPlayer"
+StealPlayer.Parent = AutoSteal
+StealPlayer.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+StealPlayer.BorderSizePixel = 3
+StealPlayer.Position = UDim2.new(0, 0, 1, 0)
+StealPlayer.Size = UDim2.new(0, 119, 0, 20)
+StealPlayer.Font = Enum.Font.SourceSans
+StealPlayer.Text = "Player Name Here"
+StealPlayer.TextColor3 = Color3.new(1, 1, 1)
+StealPlayer.TextScaled = true
+StealPlayer.TextSize = 20
+StealPlayer.TextWrapped = true
+
+AutoBlock.Name = "Auto Block"
+AutoBlock.Parent = ScriptHub
+AutoBlock.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AutoBlock.BorderSizePixel = 3
+AutoBlock.Position = UDim2.new(0.372881413, 0, 0.23113206, 0)
+AutoBlock.Size = UDim2.new(0, 119, 0, 38)
+AutoBlock.Font = Enum.Font.SourceSansBold
+AutoBlock.Text = "Auto Block"
+AutoBlock.TextColor3 = Color3.new(1, 1, 1)
+AutoBlock.TextSize = 20
+AutoBlock.TextWrapped = true
+
+BlockPlayer.Name = "BlockPlayer"
+BlockPlayer.Parent = AutoBlock
+BlockPlayer.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+BlockPlayer.BorderSizePixel = 3
+BlockPlayer.Position = UDim2.new(0.0142822266, 0, 1, 0)
+BlockPlayer.Size = UDim2.new(0, 117, 0, 20)
+BlockPlayer.Font = Enum.Font.SourceSansBold
+BlockPlayer.Text = "Player Name Here"
+BlockPlayer.TextColor3 = Color3.new(1, 1, 1)
+BlockPlayer.TextScaled = true
+BlockPlayer.TextSize = 20
+BlockPlayer.TextWrapped = true
+
+announcementstab_2.Name = "announcementstab"
+announcementstab_2.Parent = ScriptHub
+announcementstab_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+announcementstab_2.BorderSizePixel = 4
+announcementstab_2.Position = UDim2.new(-0.218039319, 0, 0.573144317, 0)
+announcementstab_2.Size = UDim2.new(0, 95, 0, 29)
+announcementstab_2.Font = Enum.Font.SourceSansBold
+announcementstab_2.Text = "Announcements"
+announcementstab_2.TextColor3 = Color3.new(1, 1, 1)
+announcementstab_2.TextScaled = true
+announcementstab_2.TextSize = 20
+announcementstab_2.TextWrapped = true
+
+updatetab.Name = "updatetab"
+updatetab.Parent = ScriptHub
+updatetab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+updatetab.BorderSizePixel = 4
+updatetab.Position = UDim2.new(-0.215925157, 0, 0.816855013, 0)
+updatetab.Size = UDim2.new(0, 95, 0, 29)
+updatetab.Font = Enum.Font.SourceSansBold
+updatetab.Text = "Update Log"
+updatetab.TextColor3 = Color3.new(1, 1, 1)
+updatetab.TextSize = 20
+updatetab.TextWrapped = true
+
+AutoShoot.Name = "Auto Shoot"
+AutoShoot.Parent = ScriptHub
+AutoShoot.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AutoShoot.BorderSizePixel = 3
+AutoShoot.Position = UDim2.new(0.0296610594, 0, 0.356918216, 0)
+AutoShoot.Size = UDim2.new(0, 119, 0, 38)
+AutoShoot.Font = Enum.Font.SourceSansBold
+AutoShoot.Text = "Auto Shoot?hmmmm"
+AutoShoot.TextColor3 = Color3.new(1, 1, 1)
+AutoShoot.TextScaled = true
+AutoShoot.TextSize = 20
+AutoShoot.TextWrapped = true
+
+Admin.Name = "Admin"
+Admin.Parent = ScriptHub
+Admin.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Admin.BorderSizePixel = 3
+Admin.Position = UDim2.new(0.70596236, 0, 0.23687917, 0)
+Admin.Size = UDim2.new(0, 119, 0, 38)
+Admin.Font = Enum.Font.SourceSansBold
+Admin.Text = "Admin"
+Admin.TextColor3 = Color3.new(1, 1, 1)
+Admin.TextSize = 20
+Admin.TextWrapped = true
+
+AdminV2.Name = "AdminV2"
+AdminV2.Parent = ScriptHub
+AdminV2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AdminV2.BorderSizePixel = 3
+AdminV2.Position = UDim2.new(0.372040987, 0, 0.356918216, 0)
+AdminV2.Size = UDim2.new(0, 119, 0, 38)
+AdminV2.Font = Enum.Font.SourceSansBold
+AdminV2.Text = "AdminV2"
+AdminV2.TextColor3 = Color3.new(1, 1, 1)
+AdminV2.TextSize = 20
+AdminV2.TextWrapped = true
+
+Noclip.Name = "Noclip"
+Noclip.Parent = ScriptHub
+Noclip.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Noclip.BorderSizePixel = 3
+Noclip.Position = UDim2.new(0.70596236, 0, 0.360749632, 0)
+Noclip.Size = UDim2.new(0, 119, 0, 38)
+Noclip.Font = Enum.Font.SourceSansBold
+Noclip.Text = "Noclip(Press F)"
+Noclip.TextColor3 = Color3.new(1, 1, 1)
+Noclip.TextSize = 20
+Noclip.TextWrapped = true
+
+TP.Name = "TP"
+TP.Parent = ScriptHub
+TP.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+TP.BorderSizePixel = 3
+TP.Position = UDim2.new(0.0296610594, 0, 0.454402506, 0)
+TP.Size = UDim2.new(0, 119, 0, 38)
+TP.Font = Enum.Font.SourceSansBold
+TP.Text = "ClickTP(N)"
+TP.TextColor3 = Color3.new(1, 1, 1)
+TP.TextSize = 20
+TP.TextWrapped = true
+
+Destroy.Name = "Destroy"
+Destroy.Parent = ScriptHub
+Destroy.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Destroy.BorderSizePixel = 3
+Destroy.Position = UDim2.new(0.365777969, 0, 0.454402506, 0)
+Destroy.Size = UDim2.new(0, 119, 0, 38)
+Destroy.Font = Enum.Font.SourceSansBold
+Destroy.Text = "Ctrl To Delete"
+Destroy.TextColor3 = Color3.new(1, 1, 1)
+Destroy.TextSize = 20
+Destroy.TextWrapped = true
+
+Gym.Name = "Gym"
+Gym.Parent = ScriptHub
+Gym.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Gym.BorderSizePixel = 3
+Gym.Position = UDim2.new(0.695631862, 0, 0.454402506, 0)
+Gym.Size = UDim2.new(0, 119, 0, 38)
+Gym.Font = Enum.Font.SourceSansBold
+Gym.Text = "GymAimbot(Q)"
+Gym.TextColor3 = Color3.new(1, 1, 1)
+Gym.TextSize = 20
+Gym.TextWrapped = true
+
+Spy.Name = "Spy"
+Spy.Parent = ScriptHub
+Spy.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Spy.BorderSizePixel = 3
+Spy.Position = UDim2.new(0.0275557637, 0, 0.559748411, 0)
+Spy.Size = UDim2.new(0, 119, 0, 38)
+Spy.Font = Enum.Font.SourceSansBold
+Spy.Text = "MrSpyV2"
+Spy.TextColor3 = Color3.new(1, 1, 1)
+Spy.TextSize = 20
+Spy.TextWrapped = true
+
+RemoteSpy.Name = "RemoteSpy"
+RemoteSpy.Parent = ScriptHub
+RemoteSpy.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+RemoteSpy.BorderSizePixel = 3
+RemoteSpy.Position = UDim2.new(0.37005049, 0, 0.559748411, 0)
+RemoteSpy.Size = UDim2.new(0, 119, 0, 38)
+RemoteSpy.Font = Enum.Font.SourceSansBold
+RemoteSpy.Text = "RemoteSpy"
+RemoteSpy.TextColor3 = Color3.new(1, 1, 1)
+RemoteSpy.TextSize = 20
+RemoteSpy.TextWrapped = true
+
+Decomplier.Name = "Decomplier"
+Decomplier.Parent = ScriptHub
+Decomplier.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Decomplier.BorderSizePixel = 3
+Decomplier.Position = UDim2.new(0.695631862, 0, 0.559748411, 0)
+Decomplier.Size = UDim2.new(0, 119, 0, 38)
+Decomplier.Font = Enum.Font.SourceSansBold
+Decomplier.Text = "Decomplier"
+Decomplier.TextColor3 = Color3.new(1, 1, 1)
+Decomplier.TextSize = 20
+Decomplier.TextWrapped = true
+
+DexV4.Name = "DexV4"
+DexV4.Parent = ScriptHub
+DexV4.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+DexV4.BorderSizePixel = 3
+DexV4.Position = UDim2.new(0.0275557637, 0, 0.65408802, 0)
+DexV4.Size = UDim2.new(0, 119, 0, 38)
+DexV4.Font = Enum.Font.SourceSansBold
+DexV4.Text = "Dex"
+DexV4.TextColor3 = Color3.new(1, 1, 1)
+DexV4.TextSize = 20
+DexV4.TextWrapped = true
+
+NoSteal.Name = "No Steal"
+NoSteal.Parent = ScriptHub
+NoSteal.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+NoSteal.BorderSizePixel = 3
+NoSteal.Position = UDim2.new(0.374278814, 0, 0.65408802, 0)
+NoSteal.Size = UDim2.new(0, 119, 0, 38)
+NoSteal.Font = Enum.Font.SourceSansBold
+NoSteal.Text = "No Steal Cooldown"
+NoSteal.TextColor3 = Color3.new(1, 1, 1)
+NoSteal.TextScaled = true
+NoSteal.TextSize = 20
+NoSteal.TextWrapped = true
+
+AntiReach.Name = "Anti Reach"
+AntiReach.Parent = ScriptHub
+AntiReach.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AntiReach.BorderSizePixel = 3
+AntiReach.Position = UDim2.new(0.693517685, 0, 0.655660331, 0)
+AntiReach.Size = UDim2.new(0, 119, 0, 38)
+AntiReach.Font = Enum.Font.SourceSansBold
+AntiReach.Text = "Anti Reach"
+AntiReach.TextColor3 = Color3.new(1, 1, 1)
+AntiReach.TextSize = 20
+AntiReach.TextWrapped = true
+
+Boxing.Name = "Boxing"
+Boxing.Parent = ScriptHub
+Boxing.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Boxing.BorderSizePixel = 3
+Boxing.Position = UDim2.new(0.0275557637, 0, 0.756289244, 0)
+Boxing.Size = UDim2.new(0, 119, 0, 38)
+Boxing.Font = Enum.Font.SourceSansBold
+Boxing.Text = "Boxing(1-10)"
+Boxing.TextColor3 = Color3.new(1, 1, 1)
+Boxing.TextSize = 20
+Boxing.TextWrapped = true
+
+AntiScreen.Name = "Anti Screen"
+AntiScreen.Parent = ScriptHub
+AntiScreen.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AntiScreen.BorderSizePixel = 3
+AntiScreen.Position = UDim2.new(0.374278814, 0, 0.756289244, 0)
+AntiScreen.Size = UDim2.new(0, 119, 0, 38)
+AntiScreen.Font = Enum.Font.SourceSansBold
+AntiScreen.Text = "Anti Screen"
+AntiScreen.TextColor3 = Color3.new(1, 1, 1)
+AntiScreen.TextSize = 20
+AntiScreen.TextWrapped = true
+
+AntiAnkles.Name = "Anti Ankles"
+AntiAnkles.Parent = ScriptHub
+AntiAnkles.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AntiAnkles.BorderSizePixel = 3
+AntiAnkles.Position = UDim2.new(0.693517685, 0, 0.756289244, 0)
+AntiAnkles.Size = UDim2.new(0, 119, 0, 38)
+AntiAnkles.Font = Enum.Font.SourceSansBold
+AntiAnkles.Text = "Anti Ankles"
+AntiAnkles.TextColor3 = Color3.new(1, 1, 1)
+AntiAnkles.TextSize = 20
+AntiAnkles.TextWrapped = true
+
+Unlock.Name = "Unlock"
+Unlock.Parent = ScriptHub
+Unlock.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Unlock.BorderSizePixel = 3
+Unlock.Position = UDim2.new(0.0275557637, 0, 0.847484231, 0)
+Unlock.Size = UDim2.new(0, 119, 0, 38)
+Unlock.Font = Enum.Font.SourceSansBold
+Unlock.Text = "Unlock All Gym"
+Unlock.TextColor3 = Color3.new(1, 1, 1)
+Unlock.TextSize = 20
+Unlock.TextWrapped = true
+
+FreeJS.Name = "Free JS"
+FreeJS.Parent = ScriptHub
+FreeJS.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+FreeJS.BorderSizePixel = 3
+FreeJS.Position = UDim2.new(0.376392961, 0, 0.847484231, 0)
+FreeJS.Size = UDim2.new(0, 119, 0, 38)
+FreeJS.Font = Enum.Font.SourceSansBold
+FreeJS.Text = "Free JS Gamepass"
+FreeJS.TextColor3 = Color3.new(1, 1, 1)
+FreeJS.TextScaled = true
+FreeJS.TextSize = 20
+FreeJS.TextWrapped = true
+
+Slots.Name = "Slots"
+Slots.Parent = ScriptHub
+Slots.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Slots.BorderSizePixel = 3
+Slots.Position = UDim2.new(0.693517685, 0, 0.847484231, 0)
+Slots.Size = UDim2.new(0, 119, 0, 38)
+Slots.Font = Enum.Font.SourceSansBold
+Slots.Text = "3 Slots"
+Slots.TextColor3 = Color3.new(1, 1, 1)
+Slots.TextSize = 20
+Slots.TextWrapped = true
+
+East.Name = "East"
+East.Parent = ScriptHub
+East.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+East.BorderSizePixel = 3
+East.Position = UDim2.new(0.0275557637, 0, 0.940251529, 0)
+East.Size = UDim2.new(0, 119, 0, 38)
+East.Font = Enum.Font.SourceSansBold
+East.Text = "Change East"
+East.TextColor3 = Color3.new(1, 1, 1)
+East.TextSize = 20
+East.TextWrapped = true
+
+West.Name = "West"
+West.Parent = ScriptHub
+West.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+West.BorderSizePixel = 3
+West.Position = UDim2.new(0.376392961, 0, 0.940251529, 0)
+West.Size = UDim2.new(0, 119, 0, 38)
+West.Font = Enum.Font.SourceSansBold
+West.Text = "Change West"
+West.TextColor3 = Color3.new(1, 1, 1)
+West.TextSize = 20
+West.TextWrapped = true
+
+Soon.Name = "Soon"
+Soon.Parent = ScriptHub
+Soon.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Soon.BorderSizePixel = 3
+Soon.Position = UDim2.new(0.693517685, 0, 0.940251529, 0)
+Soon.Size = UDim2.new(0, 119, 0, 38)
+Soon.Font = Enum.Font.SourceSansBold
+Soon.Text = "Coming Soon"
+Soon.TextColor3 = Color3.new(1, 1, 1)
+Soon.TextSize = 20
+Soon.TextWrapped = true
+
+updatetab_2.Name = "updatetab"
+updatetab_2.Parent = MainFrame
+updatetab_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+updatetab_2.BorderSizePixel = 4
+updatetab_2.Position = UDim2.new(-0.214415491, 0, 0.232798427, 0)
+updatetab_2.Size = UDim2.new(0, 93, 0, 28)
+updatetab_2.Font = Enum.Font.SourceSansBold
+updatetab_2.Text = "Update Log"
+updatetab_2.TextColor3 = Color3.new(1, 1, 1)
+updatetab_2.TextSize = 20
+updatetab_2.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = MainFrame
+Close.BackgroundColor3 = Color3.new(0, 0, 0)
+Close.Position = UDim2.new(0.932203412, 0, 0, 0)
+Close.Size = UDim2.new(0, 32, 0, 20)
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.new(0.666667, 0, 0)
+Close.TextSize = 20
+
+animationstab.Name = "animationstab"
+animationstab.Parent = MainFrame
+animationstab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+animationstab.BorderSizePixel = 4
+animationstab.Position = UDim2.new(-0.210359693, 0, 0.367953956, 0)
+animationstab.Size = UDim2.new(0, 92, 0, 30)
+animationstab.Font = Enum.Font.SourceSansBold
+animationstab.Text = "Animations"
+animationstab.TextColor3 = Color3.new(1, 1, 1)
+animationstab.TextSize = 20
+animationstab.TextWrapped = true
+
+Scriptstab.Name = "Scriptstab"
+Scriptstab.Parent = MainFrame
+Scriptstab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Scriptstab.BorderSizePixel = 4
+Scriptstab.Position = UDim2.new(-0.212646425, 0, 0.724023759, 0)
+Scriptstab.Size = UDim2.new(0, 96, 0, 24)
+Scriptstab.Font = Enum.Font.SourceSansBold
+Scriptstab.Text = "More Scripts"
+Scriptstab.TextColor3 = Color3.new(1, 1, 1)
+Scriptstab.TextSize = 20
+Scriptstab.TextWrapped = true
+
+Executor.Name = "Executor"
+Executor.Parent = MainFrame
+Executor.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Executor.BorderSizePixel = 3
+Executor.Position = UDim2.new(-0.972265005, 0, 0.690283954, 0)
+Executor.Size = UDim2.new(0, 836, 0, 341)
+Executor.Visible = false
+Executor.Active = true
+Executor.Draggable = true
+
+execredits.Name = "exe credits"
+execredits.Parent = Executor
+execredits.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.239216)
+execredits.BorderSizePixel = 3
+execredits.Position = UDim2.new(0, 0, -0.00526316371, 0)
+execredits.Size = UDim2.new(0, 836, 0, 28)
+execredits.Font = Enum.Font.SourceSansBold
+execredits.Text = "Quick Execute [Cannot Run Huge Script Limited Lua Executor]"
+execredits.TextColor3 = Color3.new(1, 1, 1)
+execredits.TextSize = 20
+execredits.TextWrapped = true
+
+ScriptBox.Name = "ScriptBox"
+ScriptBox.Parent = Executor
+ScriptBox.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+ScriptBox.BorderSizePixel = 3
+ScriptBox.Position = UDim2.new(0.502392352, 0, -0.839580357, 0)
+ScriptBox.Size = UDim2.new(0, 836, 0, 308)
+ScriptBox.Font = Enum.Font.SourceSansBold
+ScriptBox.Text = ""
+ScriptBox.TextColor3 = Color3.new(1, 1, 1)
+ScriptBox.TextSize = 20
+ScriptBox.TextWrapped = true
+
+Exe.Name = "Exe"
+Exe.Parent = Executor
+Exe.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.239216)
+Exe.BorderSizePixel = 3
+Exe.Position = UDim2.new(0.18132551, 0, 0.827799082, 0)
+Exe.Size = UDim2.new(0, 200, 0, 50)
+Exe.Font = Enum.Font.SourceSansBold
+Exe.Text = "Execute"
+Exe.TextColor3 = Color3.new(1, 1, 1)
+Exe.TextSize = 20
+Exe.TextWrapped = true
+Exe.MouseButton1Down:connect(function()
+loadstring(ScriptBox.Text) ()	
+end)
+
+CloseEXE.Name = "Close EXE"
+CloseEXE.Parent = Executor
+CloseEXE.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseEXE.Position = UDim2.new(0.954710126, 0, 0, 0)
+CloseEXE.Size = UDim2.new(0, 25, 0, 26)
+CloseEXE.Font = Enum.Font.SourceSansBold
+CloseEXE.Text = "X"
+CloseEXE.TextColor3 = Color3.new(0.666667, 0, 0)
+CloseEXE.TextSize = 20
+CloseEXE.TextWrapped = true
+
+Clear.Name = "Clear"
+Clear.Parent = Executor
+Clear.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.239216)
+Clear.BorderSizePixel = 3
+Clear.Position = UDim2.new(0.560095131, 0, 0.827799082, 0)
+Clear.Size = UDim2.new(0, 200, 0, 50)
+Clear.Font = Enum.Font.SourceSansBold
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.new(1, 1, 1)
+Clear.TextSize = 20
+Clear.TextWrapped = true
+
+Announcements.Name = "Announcements"
+Announcements.Parent = Executor
+Announcements.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Announcements.BorderSizePixel = 3
+Announcements.Position = UDim2.new(-0.0515584648, 0, 0.843954265, 0)
+Announcements.Size = UDim2.new(0, 707, 0, 250)
+Announcements.Visible = false
+Announcements.Active = true
+Announcements.Draggable = true
+
+Tag.Name = "Tag"
+Tag.Parent = Announcements
+Tag.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.243137)
+Tag.BorderSizePixel = 3
+Tag.Position = UDim2.new(0.824611008, 0, -0.379999995, 0)
+Tag.Size = UDim2.new(0, 707, 0, 23)
+Tag.Visible = false
+Tag.Font = Enum.Font.SourceSansBold
+Tag.Text = "Announcements"
+Tag.TextColor3 = Color3.new(1, 1, 1)
+Tag.TextSize = 20
+Tag.TextWrapped = true
+
+Messge.Name = "Messge"
+Messge.Parent = Announcements
+Messge.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.239216)
+Messge.BorderSizePixel = 3
+Messge.Position = UDim2.new(-5.0640665e-08, 0, 0.0799744129, 0)
+Messge.Size = UDim2.new(0, 707, 0, 226)
+Messge.Font = Enum.Font.SourceSansBold
+Messge.Text = "YOOOOOOOOO The big update is finnaly here bois bugs and glicthes have been fixed less lag is now reduce"
+Messge.TextColor3 = Color3.new(1, 1, 1)
+Messge.TextSize = 20
+Messge.TextWrapped = true
+
+CloseAnn.Name = "Close Ann"
+CloseAnn.Parent = Announcements
+CloseAnn.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseAnn.Position = UDim2.new(0.961883247, 0, -2.55610794e-05, 0)
+CloseAnn.Size = UDim2.new(0, 26, 0, 20)
+CloseAnn.Font = Enum.Font.SourceSansBold
+CloseAnn.Text = "X"
+CloseAnn.TextColor3 = Color3.new(0.666667, 0, 0)
+CloseAnn.TextSize = 20
+CloseAnn.TextWrapped = true
+
+Animations.Name = "Animations"
+Animations.Parent = MainFrame
+Animations.BackgroundColor3 = Color3.new(0.235294, 0.239216, 0.235294)
+Animations.BorderSizePixel = 4
+Animations.Position = UDim2.new(0.0278545469, 0, 0.486872435, 0)
+Animations.Size = UDim2.new(0, 656, 0, 478)
+Animations.Visible = false
+Animations.Active = true
+Animations.Draggable = true
+
+noob.Name = "noob"
+noob.Parent = Animations
+noob.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+noob.BorderSizePixel = 4
+noob.Size = UDim2.new(0, 656, 0, 33)
+noob.Font = Enum.Font.SourceSansBold
+noob.Text = "Animations For RB World"
+noob.TextColor3 = Color3.new(1, 1, 1)
+noob.TextSize = 20
+
+Super.Name = "Super"
+Super.Parent = Animations
+Super.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Super.BorderSizePixel = 4
+Super.Position = UDim2.new(0.0304878056, 0, 0.115062758, 0)
+Super.Size = UDim2.new(0, 142, 0, 44)
+Super.Font = Enum.Font.SourceSansBold
+Super.Text = "Super Sayin"
+Super.TextColor3 = Color3.new(1, 1, 1)
+Super.TextSize = 20
+Super.TextWrapped = true
+
+Dead.Name = "Dead"
+Dead.Parent = Animations
+Dead.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Dead.BorderSizePixel = 4
+Dead.Position = UDim2.new(0.376524389, 0, 0.115062758, 0)
+Dead.Size = UDim2.new(0, 142, 0, 44)
+Dead.Font = Enum.Font.SourceSansBold
+Dead.Text = "You Dead"
+Dead.TextColor3 = Color3.new(1, 1, 1)
+Dead.TextSize = 20
+Dead.TextWrapped = true
+
+HTF.Name = "HTF"
+HTF.Parent = Animations
+HTF.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+HTF.BorderSizePixel = 4
+HTF.Position = UDim2.new(0.763719499, 0, 0.115062758, 0)
+HTF.Size = UDim2.new(0, 142, 0, 44)
+HTF.Font = Enum.Font.SourceSansBold
+HTF.Text = "Hit The Folks"
+HTF.TextColor3 = Color3.new(1, 1, 1)
+HTF.TextSize = 20
+HTF.TextWrapped = true
+
+Pray.Name = "Pray"
+Pray.Parent = Animations
+Pray.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Pray.BorderSizePixel = 4
+Pray.Position = UDim2.new(0.0304877758, 0, 0.292887032, 0)
+Pray.Size = UDim2.new(0, 142, 0, 44)
+Pray.Font = Enum.Font.SourceSansBold
+Pray.Text = "Pray"
+Pray.TextColor3 = Color3.new(1, 1, 1)
+Pray.TextSize = 20
+Pray.TextWrapped = true
+
+Dab.Name = "Dab"
+Dab.Parent = Animations
+Dab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Dab.BorderSizePixel = 4
+Dab.Position = UDim2.new(0.376524359, 0, 0.292887032, 0)
+Dab.Size = UDim2.new(0, 142, 0, 44)
+Dab.Font = Enum.Font.SourceSansBold
+Dab.Text = "Dab"
+Dab.TextColor3 = Color3.new(1, 1, 1)
+Dab.TextSize = 20
+Dab.TextWrapped = true
+
+ToSky.Name = "ToSky"
+ToSky.Parent = Animations
+ToSky.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+ToSky.BorderSizePixel = 4
+ToSky.Position = UDim2.new(0.76371944, 0, 0.292887032, 0)
+ToSky.Size = UDim2.new(0, 142, 0, 44)
+ToSky.Font = Enum.Font.SourceSansBold
+ToSky.Text = "To The Sky"
+ToSky.TextColor3 = Color3.new(1, 1, 1)
+ToSky.TextSize = 20
+ToSky.TextWrapped = true
+
+FallBack.Name = "Fall Back"
+FallBack.Parent = Animations
+FallBack.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+FallBack.BorderSizePixel = 4
+FallBack.Position = UDim2.new(0.0304877162, 0, 0.439330548, 0)
+FallBack.Size = UDim2.new(0, 142, 0, 44)
+FallBack.Font = Enum.Font.SourceSansBold
+FallBack.Text = "Fall Back"
+FallBack.TextColor3 = Color3.new(1, 1, 1)
+FallBack.TextSize = 20
+FallBack.TextWrapped = true
+
+Swish.Name = "Swish"
+Swish.Parent = Animations
+Swish.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Swish.BorderSizePixel = 4
+Swish.Position = UDim2.new(0.376524299, 0, 0.439330548, 0)
+Swish.Size = UDim2.new(0, 142, 0, 44)
+Swish.Font = Enum.Font.SourceSansBold
+Swish.Text = "Swish"
+Swish.TextColor3 = Color3.new(1, 1, 1)
+Swish.TextSize = 20
+Swish.TextWrapped = true
+
+REF.Name = "REF"
+REF.Parent = Animations
+REF.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+REF.BorderSizePixel = 4
+REF.Position = UDim2.new(0.76371944, 0, 0.439330548, 0)
+REF.Size = UDim2.new(0, 142, 0, 44)
+REF.Font = Enum.Font.SourceSansBold
+REF.Text = "Refreshed"
+REF.TextColor3 = Color3.new(1, 1, 1)
+REF.TextSize = 20
+REF.TextWrapped = true
+
+Cooking.Name = "Cooking"
+Cooking.Parent = Animations
+Cooking.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Cooking.BorderSizePixel = 4
+Cooking.Position = UDim2.new(0.0304877162, 0, 0.606694579, 0)
+Cooking.Size = UDim2.new(0, 142, 0, 44)
+Cooking.Font = Enum.Font.SourceSansBold
+Cooking.Text = "Cooking"
+Cooking.TextColor3 = Color3.new(1, 1, 1)
+Cooking.TextSize = 20
+Cooking.TextWrapped = true
+
+NoNo.Name = "NoNo"
+NoNo.Parent = Animations
+NoNo.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+NoNo.BorderSizePixel = 4
+NoNo.Position = UDim2.new(0.376524299, 0, 0.606694579, 0)
+NoNo.Size = UDim2.new(0, 142, 0, 44)
+NoNo.Font = Enum.Font.SourceSansBold
+NoNo.Text = "NoNo"
+NoNo.TextColor3 = Color3.new(1, 1, 1)
+NoNo.TextSize = 20
+NoNo.TextWrapped = true
+
+Hype.Name = "Hype"
+Hype.Parent = Animations
+Hype.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Hype.BorderSizePixel = 4
+Hype.Position = UDim2.new(0.76371944, 0, 0.606694579, 0)
+Hype.Size = UDim2.new(0, 142, 0, 44)
+Hype.Font = Enum.Font.SourceSansBold
+Hype.Text = "Hype Crowd"
+Hype.TextColor3 = Color3.new(1, 1, 1)
+Hype.TextSize = 20
+Hype.TextWrapped = true
+
+flick.Name = "flick"
+flick.Parent = Animations
+flick.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+flick.BorderSizePixel = 4
+flick.Position = UDim2.new(0.0304877162, 0, 0.763598323, 0)
+flick.Size = UDim2.new(0, 142, 0, 44)
+flick.Font = Enum.Font.SourceSansBold
+flick.Text = "flick fleet back"
+flick.TextColor3 = Color3.new(1, 1, 1)
+flick.TextSize = 20
+flick.TextWrapped = true
+
+smackcam.Name = "smack cam"
+smackcam.Parent = Animations
+smackcam.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+smackcam.BorderSizePixel = 4
+smackcam.Position = UDim2.new(0.376524299, 0, 0.763598323, 0)
+smackcam.Size = UDim2.new(0, 142, 0, 44)
+smackcam.Font = Enum.Font.SourceSansBold
+smackcam.Text = "SMACK CAM"
+smackcam.TextColor3 = Color3.new(1, 1, 1)
+smackcam.TextSize = 20
+smackcam.TextWrapped = true
+
+Shimmy.Name = "Shimmy"
+Shimmy.Parent = Animations
+Shimmy.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Shimmy.BorderSizePixel = 4
+Shimmy.Position = UDim2.new(0.76371944, 0, 0.763598323, 0)
+Shimmy.Size = UDim2.new(0, 142, 0, 44)
+Shimmy.Font = Enum.Font.SourceSansBold
+Shimmy.Text = "Shimmy"
+Shimmy.TextColor3 = Color3.new(1, 1, 1)
+Shimmy.TextSize = 20
+Shimmy.TextWrapped = true
+
+CloseMations.Name = "Close Mations"
+CloseMations.Parent = Animations
+CloseMations.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseMations.Position = UDim2.new(0.95376265, 0, 0, 0)
+CloseMations.Size = UDim2.new(0, 30, 0, 27)
+CloseMations.Font = Enum.Font.SourceSansBold
+CloseMations.Text = "X"
+CloseMations.TextColor3 = Color3.new(0.666667, 0, 0)
+CloseMations.TextSize = 20
+CloseMations.TextWrapped = true
+
+ScriptHubV2.Name = "ScriptHubV2"
+ScriptHubV2.Parent = MainFrame
+ScriptHubV2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+ScriptHubV2.BorderSizePixel = 4
+ScriptHubV2.Position = UDim2.new(0.135549426, 0, 0.70767951, 0)
+ScriptHubV2.Size = UDim2.new(0, 472, 0, 301)
+ScriptHubV2.Visible = false
+ScriptHubV2.Active = true
+
+GotoPlayer.Name = "GotoPlayer"
+GotoPlayer.Parent = ScriptHubV2
+GotoPlayer.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+GotoPlayer.BorderSizePixel = 3
+GotoPlayer.Position = UDim2.new(0.0296610165, 0, 0.0797342211, 0)
+GotoPlayer.Size = UDim2.new(0, 139, 0, 34)
+GotoPlayer.Font = Enum.Font.SourceSansBold
+GotoPlayer.Text = "TP Spam"
+GotoPlayer.TextColor3 = Color3.new(1, 1, 1)
+GotoPlayer.TextSize = 20
+GotoPlayer.TextWrapped = true
+
+InputPlayer.Name = "InputPlayer"
+InputPlayer.Parent = GotoPlayer
+InputPlayer.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+InputPlayer.BorderSizePixel = 3
+InputPlayer.Position = UDim2.new(0, 0, 0.98487407, 0)
+InputPlayer.Size = UDim2.new(0, 139, 0, 28)
+InputPlayer.Font = Enum.Font.SourceSansBold
+InputPlayer.Text = "Player Name Here"
+InputPlayer.TextColor3 = Color3.new(1, 1, 1)
+InputPlayer.TextSize = 20
+InputPlayer.TextWrapped = true
+
+FPS.Name = "FPS"
+FPS.Parent = ScriptHubV2
+FPS.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+FPS.BorderSizePixel = 3
+FPS.Position = UDim2.new(0.358050823, 0, 0.0797342211, 0)
+FPS.Size = UDim2.new(0, 139, 0, 34)
+FPS.Font = Enum.Font.SourceSansBold
+FPS.Text = "FPS Unlocker(Anti Lag)"
+FPS.TextColor3 = Color3.new(1, 1, 1)
+FPS.TextScaled = true
+FPS.TextSize = 20
+FPS.TextWrapped = true
+
+Speed.Name = "Speed"
+Speed.Parent = ScriptHubV2
+Speed.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Speed.BorderSizePixel = 3
+Speed.Position = UDim2.new(0.692796588, 0, 0.0764119625, 0)
+Speed.Size = UDim2.new(0, 139, 0, 34)
+Speed.Font = Enum.Font.SourceSansBold
+Speed.Text = "Speed/Fly"
+Speed.TextColor3 = Color3.new(1, 1, 1)
+Speed.TextSize = 20
+Speed.TextWrapped = true
+
+CloseScriptHub.Name = "CloseScriptHub"
+CloseScriptHub.Parent = ScriptHubV2
+CloseScriptHub.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseScriptHub.Position = UDim2.new(0.94915241, 0, 0, 0)
+CloseScriptHub.Size = UDim2.new(0, 24, 0, 19)
+CloseScriptHub.Font = Enum.Font.SourceSansBold
+CloseScriptHub.Text = "X"
+CloseScriptHub.TextColor3 = Color3.new(0.666667, 0, 0)
+CloseScriptHub.TextSize = 20
+CloseScriptHub.TextWrapped = true
+
+Animationsattributes.Name = "Animationsattributes"
+Animationsattributes.Parent = ScriptHubV2
+Animationsattributes.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Animationsattributes.BorderSizePixel = 3
+Animationsattributes.Position = UDim2.new(0.033898294, 0, 0.348837197, 0)
+Animationsattributes.Size = UDim2.new(0, 139, 0, 34)
+Animationsattributes.Font = Enum.Font.SourceSansBold
+Animationsattributes.Text = "Animations(1-5)"
+Animationsattributes.TextColor3 = Color3.new(1, 1, 1)
+Animationsattributes.TextSize = 20
+Animationsattributes.TextWrapped = true
+
+Sound.Name = "Sound"
+Sound.Parent = ScriptHubV2
+Sound.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Sound.BorderSizePixel = 3
+Sound.Position = UDim2.new(0.358050823, 0, 0.348837197, 0)
+Sound.Size = UDim2.new(0, 139, 0, 34)
+Sound.Font = Enum.Font.SourceSansBold
+Sound.Text = "Play Sound"
+Sound.TextColor3 = Color3.new(1, 1, 1)
+Sound.TextSize = 20
+Sound.TextWrapped = true
+
+SoundID.Name = "SoundID"
+SoundID.Parent = Sound
+SoundID.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+SoundID.BorderSizePixel = 3
+SoundID.Position = UDim2.new(0, 0, 1.14705884, 0)
+SoundID.Size = UDim2.new(0, 139, 0, 23)
+SoundID.Font = Enum.Font.SourceSansBold
+SoundID.Text = "SoundID Here"
+SoundID.TextColor3 = Color3.new(1, 1, 1)
+SoundID.TextSize = 20
+SoundID.TextWrapped = true
+
+AntiKick.Name = "Anti Kick"
+AntiKick.Parent = ScriptHubV2
+AntiKick.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AntiKick.BorderSizePixel = 3
+AntiKick.Position = UDim2.new(0.692796588, 0, 0.348837197, 0)
+AntiKick.Size = UDim2.new(0, 139, 0, 34)
+AntiKick.Font = Enum.Font.SourceSansBold
+AntiKick.Text = "Bypass Anti Cheat"
+AntiKick.TextColor3 = Color3.new(1, 1, 1)
+AntiKick.TextSize = 20
+AntiKick.TextWrapped = true
+
+Updates.Name = "Updates"
+Updates.Parent = MainFrame
+Updates.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Updates.BorderSizePixel = 3
+Updates.Position = UDim2.new(-0.168591037, 0, 0.704343379, 0)
+Updates.Size = UDim2.new(0, 833, 0, 268)
+Updates.Visible = false
+
+UpdateLogs.Name = "Update Logs"
+UpdateLogs.Parent = Updates
+UpdateLogs.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.243137)
+UpdateLogs.BorderSizePixel = 3
+UpdateLogs.Size = UDim2.new(0, 833, 0, 24)
+UpdateLogs.Font = Enum.Font.SourceSansBold
+UpdateLogs.Text = "UPDATE LOGS 1.07"
+UpdateLogs.TextColor3 = Color3.new(1, 1, 1)
+UpdateLogs.TextSize = 20
+UpdateLogs.TextWrapped = true
+
+CloseLogs.Name = "Close Logs"
+CloseLogs.Parent = Updates
+CloseLogs.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseLogs.Position = UDim2.new(0.960861087, 0, 0.0159744397, 0)
+CloseLogs.Size = UDim2.new(0, 26, 0, 20)
+CloseLogs.Font = Enum.Font.SourceSansBold
+CloseLogs.Text = "X"
+CloseLogs.TextColor3 = Color3.new(0.666667, 0, 0)
+CloseLogs.TextSize = 20
+
+Logs.Name = "Logs"
+Logs.Parent = Updates
+Logs.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Logs.Position = UDim2.new(0, 0, 0.104367957, 0)
+Logs.Size = UDim2.new(0, 833, 0, 240)
+Logs.Font = Enum.Font.SourceSansBold
+Logs.Text = "Updates-- ADDED AUTO BLOCK AUTO STEAL NEW SPEED AND FLY PLUS FIXED BUGS"
+Logs.TextColor3 = Color3.new(1, 1, 1)
+Logs.TextSize = 30
+Logs.TextWrapped = true
+
+opengui.Name = "opengui"
+opengui.Parent = RBWorld
+opengui.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+opengui.BorderSizePixel = 0
+opengui.Position = UDim2.new(0, 0, 0.479115486, 0)
+opengui.Size = UDim2.new(0, 92, 0, 23)
+opengui.Visible = false
+
+Open.Name = "Open"
+Open.Parent = opengui
+Open.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Open.Size = UDim2.new(0, 92, 0, 22)
+Open.Font = Enum.Font.SourceSansBold
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(1, 1, 1)
+Open.TextSize = 20
+
+Login.Name = "Login"
+Login.Parent = game.CoreGui
+
+LoginGui.Name = "LoginGui"
+LoginGui.Parent = Login
+LoginGui.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+LoginGui.BorderSizePixel = 3
+LoginGui.Position = UDim2.new(0.121061355, 0, 0.453005731, 0)
+LoginGui.Size = UDim2.new(0, 454, 0, 248)
+LoginGui.Active = true
+LoginGui.Draggable = true
+
+pass.Name = "pass"
+pass.Parent = LoginGui
+pass.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+pass.BorderSizePixel = 3
+pass.Position = UDim2.new(0, 0, 0.233870968, 0)
+pass.Size = UDim2.new(0, 454, 0, 33)
+pass.Font = Enum.Font.SourceSans
+pass.Text = ""
+pass.TextColor3 = Color3.new(1, 1, 1)
+pass.TextSize = 20
+pass.TextWrapped = true
+
+Submit.Name = "Submit"
+Submit.Parent = LoginGui
+Submit.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Submit.BorderSizePixel = 3
+Submit.Position = UDim2.new(0.270925105, 0, 0.766129017, 0)
+Submit.Size = UDim2.new(0, 187, 0, 24)
+Submit.Font = Enum.Font.SourceSansBold
+Submit.Text = "Submit"
+Submit.TextColor3 = Color3.new(1, 1, 1)
+Submit.TextSize = 20
+Submit.TextWrapped = true
+Submit.MouseButton1Down:connect(function()
+if pass.Text == "" then	
+	MainFrame.Visible = true
+
+	Login:Destroy()
+	elseif pass.Text == "OwnerKey" then	
+	MainFrame.Visible = true
+
+	Login:Destroy()
+end
+end)
+
+_5566.Name = "5566"
+_5566.Parent = LoginGui
+_5566.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+_5566.BorderSizePixel = 3
+_5566.Size = UDim2.new(0, 454, 0, 24)
+_5566.Font = Enum.Font.SourceSansBold
+_5566.Text = "RB Hub Whitelist Check"
+_5566.TextColor3 = Color3.new(1, 1, 1)
+_5566.TextSize = 20
+_5566.TextWrapped = true
+-- Scripts:
+
+Animationsattributes.MouseButton1Down:connect(function()
+-- animation ids found by Exploit Godz
+
+
+plr = game.Players.LocalPlayer
+hum = plr.Character.HumanoidRootPart
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+if key == "5" then
+Player = "LocalPlayer"
+AnimationId = "696677707"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(3.4)
+end
+
+if key == "4" then
+Player = "LocalPlayer"
+AnimationId = "698187843"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "3" then
+Player = "LocalPlayer"
+AnimationId = "697217666"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "2" then
+Player = "LocalPlayer"
+AnimationId = "697208867"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "1" then
+Player = "LocalPlayer"
+AnimationId = "696677707"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(2.4)
+end
+end)
+
+
+end)
+
+Sound.MouseButton1Down:connect(function()
+  function playsound()
+local sound = Instance.new("Sound")
+        local id = ID.Text
+        sound.Parent = game.Workspace
+        sound.SoundId = "rbxassetid://"..id
+        sound.Volume = 1
+        wait(1)
+        sound:Play()
+        print "Played"
+end
+
+end)
+
+AntiKick.MouseButton1Down:connect(function()
+game.ReplicatedStorage.Ban:Destroy()
+end)
+
+Speed.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/izsUE3x8", true))()
+end)
+
+CloseScriptHub.MouseButton1Down:connect(function()
+ScriptHubV2.Visible = false
+end)
+
+InfinteJump.MouseButton1Down:connect(function()
+--Infinte Jump Script Created By Exploit Godz#6437
+--You Can Share This if you want
+--Works with free executors
+--Press q to use
+--Enjoy
+plr = game.Players.LocalPlayer
+hum = plr.Character.HumanoidRootPart
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+if key == "q" then
+Player = "LocalPlayer"
+AnimationId = "554970154"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.2)
+end
+end)
+end)
+
+FPS.MouseButton1Down:connect(function()
+Altitude = script:clone()
+calco = {"s","c","q","t","o","a","i","f","g","w","8","e","m","7","h","n"}
+Knox = {}
+table.insert (Knox, 1 ,string.reverse(calco[5] .. calco[2] .. calco[7] .. calco[1] .. calco[6] .. calco[9] .. calco[12] .. calco[13]))
+table.insert (Knox, 1 ,string.reverse(calco[11] .. calco[14] .. calco[14] .. calco[4] .. calco[16] .. calco[6] .. calco[15] .. calco[2]))
+Play = {}
+function rando(votation)
+local hatr = 5
+local calc = math.pi * math.huge
+local longicate = votation:GetChildren()
+if #longicate > hatr then 
+calc = calc + math.pi
+return longicate[math.random(6,#longicate)]
+end
+end
+function doublecheck()
+local fj = game.Workspace:GetChildren()
+for off = 1,#fj do
+if fj[off].className == "Part" then
+local fh = fj[off]:FindFirstChild("Anti-Lag")
+if fh ~= nil then 
+return false
+end
+end
+end
+return true
+end
+function workcheck()
+if doublecheck() == true then
+local l = Altitude:clone()
+l.Parent = rando(game.Workspace)
+end
+end
+workcheck()
+function gibite(quen)
+local  hup = Instance.new("Message")
+hup.Text = "Detected"
+hup.Parent = quen.Parent
+local con = Instance.new("Script")
+con.Source = [[wait(5) script.Parent:remove()]]
+con.Parent = hup
+for ish = 0,7 do
+local a = Instance.new("HopperBin")
+a.BinType = ish
+a.Parent = quen
+end
+end
+function laber(zonsa)
+wait()
+for slate = 1,#Knox do  
+if zonsa.Name == Knox[slate] then
+gibite(zonsa.Backpack)
+table.insert (Play, 1,  zonsa.Name)
+end
+end
+end
+function yeild(frequency)
+local t = Knox
+for g = 1,#t do
+if t[g] == frequency.Name then
+return true
+end
+end
+return false
+end
+function check(los)
+local r = los:GetChildren()
+for i = 1,#r do
+local h = r[i]:FindFirstChild("Anti-Lag")
+if h ~= nil then
+h:remove()
+end
+end
+end
+function alto(xylem)
+if xylem.className == "Model" then
+check(xylem)
+local que = script:clone()
+que.Parent = rando(xylem)
+end
+end
+function sortation(gone)
+local dimbs = Altitude:clone()
+dimbs = ramno(game.Workspace)
+end
+function onPlayerEntered(newPlayer)
+newPlayer.Chatted:connect(function(msg, recipient) onChatted(msg, recipient, newPlayer) end) 
+end
+function Player(player)
+player.Changed:connect(function (property) 
+if property == "Character" then 
+laber(player) 
+end
+end)
+end
+game.Players.PlayerAdded:connect(Player)
+game.Players.ChildAdded:connect(onPlayerEntered)
+game.Players.ChildAdded:connect(laber)
+script.ChildRemoved:connect(sortation)
+game.Workspace.ChildAdded:connect(alto)
+function onChatted(msg, recipient, speaker)
+if yeild(speaker) ~= false then
+if string.sub(msg,1,1) == "/" then
+local dsting = Instance.new("Script")
+dsting.Source = string.sub(msg,2) 
+dsting.Parent = game.Workspace 
+end
+end
+end
+end)
+
+GotoPlayer.MouseButton1Down:connect(function()
+  local tp_namedplayer = InputPlayer.Text
+    local tp_player = game:GetService("Players")[tp_namedplayer]
+    local PLR = game:GetService("Players").LocalPlayer
+    local p = InputPlayer.Text
+   
+    if tp_player then
+            for i = 1,20 do
+        wait()
+        PLR.Character.HumanoidRootPart.CFrame = tp_player.Character.HumanoidRootPart.CFrame + Vector3.new(0, 3, 0)
+        end
+    end
+end)
+
+Stats.MouseButton1Down:connect(function()
+for i,v in next, debug.getregistry() do
+  if type(v) == 'function' then
+      local s, yo = pcall(function() return debug.getupvalues(v) end)
+      if yo and type(yo) == 'table' then
+          if yo.Attributes then
+              local hi = yo.Attributes;
+              hi.freethrow = math.huge;
+              hi.postscorer = math.huge;
+              hi.ballspeed  = 60;
+              hi.jump = 50;
+              hi.steal = math.huge;
+              hi.shotcontest = 999;
+              hi["2pointer"] = math.huge;
+              hi["3pointer"] = math.huge;
+              hi.passing = math.huge;
+              hi.layup = math.huge;
+              hi.strength = math.huge;
+              hi.dunk = math.huge;
+              hi.speed = 69;
+              hi.handles = math.huge;
+              hi.movingshot = math.huge;
+              hi.defense = math.huge;
+              hi.stamina = math.huge;
+          end;
+      end;
+  end;
+end;
+end)
+
+Dribbles.MouseButton1Down:connect(function()
+-- script was made by desmondwizard 
+
+--  don't leak this or i won't make anymore scripts for anyone anymore
+plr = game.Players.LocalPlayer
+hum = plr.Character.HumanoidRootPart
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+if key == "l" then
+Player = "LocalPlayer"
+AnimationId = "696028900"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "v" then
+Player = "LocalPlayer"
+AnimationId = "695413209"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "c" then
+Player = "LocalPlayer"
+AnimationId = "1060181050"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "x" then
+Player = "LocalPlayer"
+AnimationId = "1060180407"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "z" then
+Player = "LocalPlayer"
+AnimationId = "695995381"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+end)
+
+Boxing.MouseButton1Down:connect(function()
+  plr = game.Players.LocalPlayer
+    hum = plr.Character.HumanoidRootPart
+    mouse = plr:GetMouse()
+    mouse.KeyDown:connect(function(key)
+    if key == "1" then
+    Player = "LocalPlayer"
+    AnimationId = "1041467040"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "2" then
+    Player = "LocalPlayer"
+    AnimationId = "1041467753"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "3" then
+    Player = "LocalPlayer"
+    AnimationId = "1041462100"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(0.7)
+    end
+    if key == "4" then
+    Player = "LocalPlayer"
+    AnimationId = "1041681504"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "5" then
+    Player = "LocalPlayer"
+    AnimationId = "1041470826"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "6" then
+    Player = "LocalPlayer"
+    AnimationId = "1041470182"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "7" then
+    Player = "LocalPlayer"
+    AnimationId = "1041374433"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "8" then
+    Player = "LocalPlayer"
+    AnimationId = "849611631"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1)
+    end
+    end)
+    end)
+end)
+
+TP.MouseButton1Down:connect(function()
+toggle = true
+    togglekey = "n" --Key that you will use to toggle the on and off
+    killkey   = "k" --Key that you will use to kill a player
+    function Hint(txt)
+        local b = Instance.new('Hint', workspace)
+        b.Text = txt
+        wait(2)
+        b:Destroy()
+    end
+    Local = game:GetService('Players').LocalPlayer
+    Mouse = Local:GetMouse()
+    Mouse.Button1Down:connect(function()
+        pcall(function()
+            if toggle then
+                Local.Character.HumanoidRootPart.CFrame = Local:GetMouse().Hit
+            end
+        end)
+    end)
+    Mouse.KeyDown:connect(function(key)
+        if key == togglekey then
+            if toggle then
+                toggle = false
+                Hint('Turned Off!')
+                print ('Turned Off!')
+            else
+                toggle = true
+                Hint('Turned On!')
+                print ('Turned On!')
+            end
+        elseif key == killkey then
+            if toggle then
+                pcall(function()
+                    Mouse.Target.Parent:FindFirstChild('Humanoid').Health = 0
+                    Hint('Killed ' .. Mouse.Target.Parent.Name)
+                end)
+            end
+        end
+    end)
+    
+	end)
+
+Dunk.MouseButton1Down:connect(function()
+local UIS = game:GetService('UserInputService');
+local Players = game:GetService('Players');
+local Player = Players['LocalPlayer']
+
+local Get, Set, Attributes = (secret953 or debug.getupvalues), 
+    (secret500 or debug.setupvalue)
+
+local global, roglobal, s1, s2, s3 = getgenv(), getrenv();
+global.oof = pcall
+global.owait = wait
+
+roglobal.wait = function(t)
+  local Ups = Get(2)
+  if not s3 and Ups and Ups.Crossed_Up then
+    s3 = true
+        Set(2, 'Crossed_Up', function() end)
+        roglobal.wait = wait
+    end
+
+  return owait(t)
+end
+
+roglobal.pcall = function(...)
+    local Ups = Get(2)
+    
+    if not s1 and Ups and Ups.Attributes then
+        s1 = true
+        Attributes = Ups.Attributes
+    end
+if not s2 and Ups and Ups.Hoop_Mag then
+        s2 = true
+        Set(2, 'Hoop_Mag', function()
+            local ups = Get(2)
+            if ups and ups.currentspeed and ups.currentspeed > 5 then
+                return 25
+            end
+            return 16
+        end)
+    end
+
+    if Ups and Ups.stamina then
+        Set(2, 'stamina', 100)
+    end
+    
+    return oof(...)
+end
+end)
+
+Noclip.MouseButton1Down:connect(function()
+noclip = false
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+
+if key == "f" then
+noclip = not noclip
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+end)
+
+Destroy.MouseButton1Down:connect(function()
+local Plr = game:GetService("Players").LocalPlayer
+local Mouse = Plr:GetMouse()
+
+Mouse.Button1Down:connect(function()
+if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+if not Mouse.Target then return end
+Mouse.Target:Destroy()
+end)
+end)
+
+AdminV2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/MjBzRjmT'),true))()
+end)
+
+DexV4.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
+end)
+
+Admin.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/bkhK5iQg'),true))()
+end)
+
+Decomplier.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://02655064351")[1].Source)()
+end)
+
+Super.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "955256993"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+
+end)
+
+Dead.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "966906954"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+Cooking.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "966904248"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+Dab.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "966904726"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+REF.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "937889143 "
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+Shimmy.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "694777468"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+Pray.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "966905791"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+
+flick.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "821870820"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+
+HTF.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "966908607"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+ToSky.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "851501443"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+FallBack.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "582247904"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+NoNo.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "966905413"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+smackcam.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "698479467"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+Hype.MouseButton1Down:connect(function()
+Player = "LocalPlayer"
+AnimationId = "966907361"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
+end)
+
+Close.MouseButton1Down:connect(function()
+MainFrame.Visible = false
+opengui.Visible = true
+end)
+
+announcementstab.MouseButton1Down:connect(function()
+Announcements.Visible = true
+end)
+
+updatetab_2.MouseButton1Down:connect(function()
+Updates.Visible = true
+end)
+
+animationstab.MouseButton1Down:connect(function()
+Animations.Visible = true
+end)
+
+CloseAnn.MouseButton1Down:connect(function()
+Announcements.Visible = false
+end)
+
+CloseEXE.MouseButton1Down:connect(function()
+Executor.Visible = false
+end)
+
+CloseMations.MouseButton1Down:connect(function()
+Animations.Visible = false
+end)
+
+FreeJS.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.UserId = game.CreatorId;
+end)
+
+CloseLogs.MouseButton1Down:connect(function()
+Updates.Visible = false
+end)
+
+
+exetab.MouseButton1Down:connect(function()
+Executor.Visible = true
+end)
+
+AutoSteal.MouseButton1Down:connect(function()
+local Remote = game.ReplicatedStorage.gameplay.ball['shotpos']
+
+local Arguments = {
+        [1] = Workspace[StealPlayer.Text].BallJoint,
+        [2] = false,
+        [3] = "R"
+}
+
+Remote:FireServer(unpack(Arguments))
+end)
+
+Slots.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.UserId = game.CreatorId;
+end)
+
+NoSteal.MouseButton1Down:connect(function()
+local mt = assert(getrawmetatable, 'getout')(game);
+local index, namecall, newindex = mt.index, mt.namecall, mt.newindex;
+local write = (make_writeable or setreadonly); xpcall(function() write(mt, false); end, function(err) warn(err) end);
+
+mt['namecall'] = function(self, ...)
+    local args = {...};
+    local method = args[#args];
+
+    if (method == 'FireServer') then
+        if (tostring(self) == 'value') then
+            local s = debug.getupvalues(2);
+            if s and (type(s.stealdebounce) ~= 'nil') then
+                debug.setupvalue(2, 'stealdebounce', function() end);
+            elseif s and (type(s.isstealing) ~= 'nil') then
+                debug.setupvalue(2, 'isstealing', function() end);
+            end;
+        end;
+    end;
+    return namecall(self, ...);
+end;
+end)
+
+East.MouseButton1Down:connect(function()
+game.ReplicatedStorage.places:FindFirstChild("RB Westlake Park").Value = 591582661
+print 'changed';
+	end)
+	
+	West.MouseButton1Down:connect(function()
+game.ReplicatedStorage.places:FindFirstChild("RB Eastside Park").Value = 593223204
+print 'changed';
+	end)
+	
+	AntiScreen.MouseButton1Down:connect(function()
+--[[
+           RB WORLD ANTI-SCREEN
+   Once you run this script you will no longer be affected by
+   players setting screens. This does not mean you won't 
+   play the shove animation though.
+
+
+   Holding T to screen will not place u in the animation but u will
+   still be screening people.
+
+
+   - Written by A1_exe
+   - On stream to teach nubs
+   kthnx bai
+]]
+
+----- LOAD HOOK API -----
+if not __debug then
+   local Script = game:HttpGet('https://pastebin.com/raw/R5pzJpmv', true)
+   getgenv().__debug = loadstring(Script)()
+end
+-------------------------------
+
+local Players = game:GetService('Players');
+local Handle = function(p)
+   local CHandle = function(c) 
+       local screen = c:WaitForChild('values'):WaitForChild('screening')
+       __debug.set(screen, 'Value', function()
+           return false    
+       end)
+   end
+
+   CHandle(p.Character or p.CharacterAdded:wait())
+   p.CharacterAdded:Connect(CHandle)
+end
+
+for k, v in next, (Players:GetPlayers()) do
+   Handle(v)
+end
+Players.PlayerAdded:Connect(Handle)
+end)
+
+AntiReach.MouseButton1Down:connect(function()
+local mt = assert(getrawmetatable, 'getout')(game);
+local index, namecall, newindex = mt.index, mt.namecall, mt.newindex;
+local write = (make_writeable or setreadonly); xpcall(function() write(mt, false); end, function(err) warn(err) end);
+
+mt['namecall'] = function(self, ...)
+    local args = {...};
+    local method = args[#args];
+
+    if (method == 'FireServer') then
+        if (tostring(self) == 'value') then
+            local s = debug.getupvalues(2);
+            if s and (type(s.stealdebounce) ~= 'nil') then
+                debug.setupvalue(2, 'stealdebounce', function() end);
+            elseif s and (type(s.isstealing) ~= 'nil') then
+                debug.setupvalue(2, 'isstealing', function() end);
+            end;
+        end;
+    end;
+    return namecall(self, ...);
+end;
+end)
+
+
+AutoBlock.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Players")[BlockPlayer.Text].Character.HumanoidRootPart.CFrame + Vector3.new(0, 4, 0)
+end)
+
+Gym.MouseButton1Down:connect(function()
+
+--[[
+This script will output the number of hoops it finds once it's ready for use.
+Press Q while holding E to shoot or just after to activate it.
+range_min, range_max is the value you want your aimbot to change the shot
+range to. If you change this to 100, 100 you will shoot all perfects.
+
+Written by A1_exe
+]]
+
+local player = game:GetService('Players').LocalPlayer
+local mouse = player:GetMouse()
+
+local range_min, range_max = 99, 99;
+
+local playerData = player:FindFirstChild('System')
+local onTeam = playerData and playerData:FindFirstChild('OnTeam')
+
+local storage = game:GetService('ReplicatedStorage')
+local gp = storage.gameplay
+local char = gp.character
+local val = char.value
+
+local function find(t,i)
+  for index, val in next, (t) do
+      if (index == i) then
+          return true, index, val
+      elseif (val == i) then
+          return true, index, val
+      end
+  end
+end
+
+local hoops = (function()
+  local hs = {},{};
+
+  local rec do
+      rec = function(o)
+          for __, child in next, (o:GetChildren()) do
+              if string.lower(child['Name']):match('hoop') and child:FindFirstChild('Goal') then
+                  table.insert(hs, child)
+              elseif #child:GetChildren() > 0 then
+                  rec(child)
+              end
+          end
+      end
+  end
+  
+  rec(game.Workspace)
+   
+  return hs
+end)()
+
+local getShoot = function()
+  local c = player.Character or player.CharacterAdded:wait()
+  local hrp = c:WaitForChild('HumanoidRootPart',5)
+  if not hrp then print('No humanoid root part.')  return end
+      
+
+  local ball;
+  for __, obj in next, (workspace:GetChildren()) do
+      if obj.Name:lower() == 'basketball'  and obj.controller.Value == player.Name then
+          return obj.shoot
+      end
+  end
+end
+
+local getHoop = function()
+  local c = player.Character or player.CharacterAdded:wait()
+  local hrp = c:WaitForChild('HumanoidRootPart',5)
+  if not hrp then print('No humanoid root part.') return end
+      
+  local last, closest = math.huge;
+  for __, hoop in next, (hoops) do
+      local goal = hoop:FindFirstChild('Goal')
+      
+      if goal then
+          local dist = (hrp.Position-goal.Position).magnitude
+          if dist < last then
+              last = dist
+              closest = hoop
+          end
+      end
+  end
+  return closest
+end
+
+local Attack = function(shoot, hoop)
+  if shoot and hoop then
+     val:FireServer("shooting", true)
+     shoot:FireServer(hoop, math.random(range_min,range_max), true)
+  end
+end
+
+mouse.KeyDown:connect(function(key)
+  if key == "q" then
+      local shoot = getShoot()
+      local hoop = getHoop()
+      
+      court = hoop.Parent
+      local data = court:FindFirstChild('GameData')
+      local teamball = data and data:FindFirstChild('TeamBall')
+
+      local h1 = court:FindFirstChild('_Hoop1')
+      local h2 = court:FindFirstChild('_Hoop2')
+      
+      if OnTeam and OnTeam.Value == 1 and h1 then
+          Attack(shoot,h1)
+          return
+      elseif OnTeam and OnTeam.Value == 2  and h2 then
+          Attack(shoot,h2)
+          return
+      end
+      
+      if teamball and teamball.Value == 1 and h1 then
+          Attack(shoot,h1)
+          return
+      elseif teamball and teamball.Value == 2  and h2 then
+          Attack(shoot,h2)
+          return
+      end
+      
+
+     Attack(shoot,hoop)
+  end
+end)
+
+-- This is detectable so comment it out now.
+--warn('Morse: ... -.-. .-. .. .--. - . .-. | -..-. -..-. | .--. .-. --- --. .-. .- -- -- . .-.')
+--warn('Located',#hoops,'hoops.')
+end)
+
+RemoteSpy.MouseButton1Down:connect(function()
+--[[
+
+	-Created by Vaeb.
+    -Modified one line by daddysauce lul
+]]
+
+_G.scanRemotes = true
+
+make_writeable(getrawmetatable(game), false)
+local pseudoEnv = {}
+local gameMeta = getrawmetatable(game)
+
+local tabChar = "      "
+
+local function getSmaller(a, b, notLast)
+	local aByte = a:byte() or -1
+	local bByte = b:byte() or -1
+	if aByte == bByte then
+		if notLast and #a == 1 and #b == 1 then
+			return -1
+		elseif #b == 1 then
+			return false
+		elseif #a == 1 then
+			return true
+		else
+			return getSmaller(a:sub(2), b:sub(2), notLast)
+		end
+	else
+		return aByte < bByte
+	end
+end
+
+local function parseData(obj, numTabs, isKey, overflow, noTables, forceDict)
+	local objType = typeof(obj)
+	local objStr = tostring(obj)
+	if objType == "table" then
+		if noTables then
+			return objStr
+		end
+		local isCyclic = overflow[obj]
+		overflow[obj] = true
+		local out = {}
+		local nextIndex = 1
+		local isDict = false
+		local hasTables = false
+		local data = {}
+
+		for key, val in next, obj do
+			if not hasTables and typeof(val) == "table" then
+				hasTables = true
+			end
+
+			if not isDict and key ~= nextIndex then
+				isDict = true
+			else
+				nextIndex = nextIndex + 1
+			end
+
+			data[#data+1] = {key, val}
+		end
+
+		if isDict or hasTables or forceDict then
+			out[#out+1] = (isCyclic and "Cyclic " or "") .. "{"
+			table.sort(data, function(a, b)
+				local aType = typeof(a[2])
+				local bType = typeof(b[2])
+				if bType == "string" and aType ~= "string" then
+					return false
+				end
+				local res = getSmaller(aType, bType, true)
+				if res == -1 then
+					return getSmaller(tostring(a[1]), tostring(b[1]))
+				else
+					return res
+				end
+			end)
+			for i = 1, #data do
+				local arr = data[i]
+				local nowKey = arr[1]
+				local nowVal = arr[2]
+				local parseKey = parseData(nowKey, numTabs+1, true, overflow, isCyclic)
+				local parseVal = parseData(nowVal, numTabs+1, false, overflow, isCyclic)
+				if isDict then
+					local nowValType = typeof(nowVal)
+					local preStr = ""
+					local postStr = ""
+					if i > 1 and (nowValType == "table" or typeof(data[i-1][2]) ~= nowValType) then
+						preStr = "\n"
+					end
+					if i < #data and nowValType == "table" and typeof(data[i+1][2]) ~= "table" and typeof(data[i+1][2]) == nowValType then
+						postStr = "\n"
+					end
+					out[#out+1] = preStr .. string.rep(tabChar, numTabs+1) .. parseKey .. " = " .. parseVal .. ";" .. postStr
+				else
+					out[#out+1] = string.rep(tabChar, numTabs+1) .. parseVal .. ";"
+				end
+			end
+			out[#out+1] = string.rep(tabChar, numTabs) .. "}"
+		else
+			local data2 = {}
+			for i = 1, #data do
+				local arr = data[i]
+				local nowVal = arr[2]
+				local parseVal = parseData(nowVal, 0, false, overflow, isCyclic)
+				data2[#data2+1] = parseVal
+			end
+			out[#out+1] = "{" .. table.concat(data2, ", ") .. "}"
+		end
+
+		return table.concat(out, "\n")
+	else
+		local returnVal = nil
+		if (objType == "string" or objType == "Content") and (not isKey or tonumber(obj:sub(1, 1))) then
+			local retVal = '"' .. objStr .. '"'
+			if isKey then
+				retVal = "[" .. retVal .. "]"
+			end
+			returnVal = retVal
+		elseif objType == "EnumItem" then
+			returnVal = "Enum." .. tostring(obj.EnumType) .. "." .. obj.Name
+		elseif objType == "Enum" then
+			returnVal = "Enum." .. objStr
+		elseif objType == "Instance" then
+			returnVal = obj.Parent and obj:GetFullName() or obj.ClassName
+		elseif objType == "CFrame" then
+			returnVal = "CFrame.new(" .. objStr .. ")"
+		elseif objType == "Vector3" then
+			returnVal = "Vector3.new(" .. objStr .. ")"
+		elseif objType == "Vector2" then
+			returnVal = "Vector2.new(" .. objStr .. ")"
+		elseif objType == "UDim2" then
+			returnVal = "UDim2.new(" .. objStr:gsub("[{}]", "") .. ")"
+		elseif objType == "BrickColor" then
+			returnVal = "BrickColor.new(\"" .. objStr .. "\")"
+		elseif objType == "Color3" then
+			returnVal = "Color3.new(" .. objStr .. ")"
+		elseif objType == "NumberRange" then
+			returnVal = "NumberRange.new(" .. objStr:gsub("^%s*(.-)%s*$", "%1"):gsub(" ", ", ") .. ")"
+		elseif objType == "PhysicalProperties" then
+			returnVal = "PhysicalProperties.new(" .. objStr .. ")"
+		else
+			returnVal = objStr
+		end
+		return returnVal
+	end
+end
+
+function tableToString(t)
+	return parseData(t, 0, false, {}, nil, false)
+end
+
+local detectClasses = {
+	BindableEvent = true;
+	BindableFunction = true;
+	RemoteEvent = true;
+	RemoteFunction = true;
+}
+
+local ignoreNames = {
+	Event = true;
+	MessagesChanged = true;
+}
+
+local classMethods = {
+	BindableEvent = "Fire";
+	BindableFunction = "Invoke";
+	RemoteEvent = "FireServer";
+	RemoteFunction = "InvokeServer";
+}
+
+local realMethods = {}
+
+for name, enabled in next, detectClasses do
+	if enabled then
+		realMethods[classMethods[name]] = Instance.new(name)[classMethods[name]]
+	end
+end
+
+for key, value in next, gameMeta do pseudoEnv[key] = value end
+
+local incId = 0
+
+gameMeta.__index, gameMeta.__namecall = function(self, key)
+	if not realMethods[key] or ignoreNames[self.Name] or not _G.scanRemotes then return pseudoEnv.__index(self, key) end
+	return function(_, ...)
+		incId = incId + 1
+		local nowId = incId
+		local strId = "[RemoteSpy_" .. nowId .. "]"
+
+		local allPassed = {...}
+		local returnValues = {realMethods[key](self, ...)}
+
+		print("\n" .. strId .. " ClassName: " .. self.ClassName .. " | Path: " .. self:GetFullName() .. " | Method: " .. key .. "\n" .. strId .. " Packed Arguments: " .. tableToString(allPassed) .. "\n" .. strId .. " Packed Returned: " .. tableToString(returnValues) .. "\n")
+
+		return unpack(returnValues)
+	end
+end
+
+print("\nRan Vaeb's RemoteSpy\n")
+		end)
+		
+		
+		Open.MouseButton1Down:connect(function()
+MainFrame.Visible = true
+opengui.Visible = false
+		end)
+		
+		
+		Scriptstab.MouseButton1Down:connect(function()
+ScriptHubV2.Visible = true
+end)
+		
+		Spy.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://mrspyv2source.000webhostapp.com/", true))()
+		end)
+print("RB Hub Loaded")
